@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(255, 231, 231);
+}
+
+/* HEADER */
+.navbar {
+    background-color: rgba(254, 170, 170, 0.844);
+    border-radius: 5px;
+    border: 0;
+}
+
+
+
+div.container-fluid p {
+    float: right; 
+    margin-top: 10px;
+    position:relative;
+}
+
+.brand {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Borel', cursive;
+    color: crimson;
+    text-decoration: none !important;
+    text-align: justify;
+}
+
+.button {
+position: relative;
+float: right;
+}
+
+#button a:hover {
+    font-size: 20px;
+    text-decoration: none;
+    float: right;
+}
+
+
+.title {
+    float: right;
+    position: relative;
+    font-size: 20px;
+    margin-top: -55px;
+    font-family: 'Borel', cursive;
+}
+
+.nav-link a, h2{
+    color: crimson;
+    font-weight: bold;
+}
+
+/* END-HEADER */
+
+/* BOX */
+.row {
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+#beef, #chicken, #sushi {
+    border: 2px solid;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 98%;
+}
+
+.item {
+    text-align: center;
+    color: aliceblue;
+}
+
+.item-detail {
+    padding-left: 10px;
+    text-align: left;
+    color: aliceblue;
+}
+
+#beef {
+    background-color: rgba(140, 0, 0, 0.915);
+    
+}
+
+#chicken {
+    background-color: rgb(0, 0, 126);
+}
+
+#sushi {
+    background-color: rgb(213, 13, 190);
+}
+
